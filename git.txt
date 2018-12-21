@@ -52,3 +52,15 @@ git diff
 diff will help you to give an idea about where have you stopped last in your work.
 git diff
 git diff --staged
+git diff HEAD (compare two branches, lines.)
+git diff --color-words
+git diff --word-diff (identify the specific changes.)
+git diff --stat (identify the specific file changes.)
+
+log will help you out to see how your history looks like afte doing several commit.
+git log
+git log --oneline (only commit history)
+git log --stat
+git log --patch (green line = addition of line & red line = subtraction of line)
+git log --patch --oneline
+git log --graph --all --decorate --oneline (oneline summary of each commit)
