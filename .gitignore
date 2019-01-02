@@ -1,0 +1,3 @@
+# test for ignoring one file from my repository
+!test_for_learning_git.log
+
